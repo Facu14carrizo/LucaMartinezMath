@@ -1,60 +1,88 @@
-# Luca Martínez Math
+<div align="center">
 
-Landing page profesional para **clases particulares de matemáticas** de Luca Martínez — secundaria, preuniversitario y universitario. Diseñada para convertir visitas en consultas: presentación clara, servicios, precios y contacto directo por WhatsApp.
+  <img src="public/math-icon.svg" width="80" height="80" alt="Luca Martínez Math Logo" />
 
-**Sitio en producción:** [mateconluca.netlify.app](https://mateconluca.netlify.app/)
+  # Luca Martínez Math
 
----
+  **Landing page profesional para clases particulares de matemáticas**  
+  *Secundaria • Preuniversitario • Universitario*
 
-## Vista previa
+  <br />
 
-Secciónes y Contenido
-| **Sobre mí**  | Presentación, especialidades, foto y CTAs principales |
-| **Servicios** | Modalidades (online, presencial, exámenes, intensivas) y niveles |
-| **Precios**   | Planes individuales, pack mensual y grupal + FAQ |
-| **Contacto**  | Formulario → WhatsApp, datos, mapa y redes |
+  [![Live Demo](https://img.shields.io/badge/Website-mateconluca.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mateconluca.netlify.app/)
+  [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+  [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
----
-
-## Características
-
-- **SPA de una sola página** con navegación suave y sección activa en el menú (`IntersectionObserver`)
-- **Loader animado** con ecuaciones matemáticas y barra de progreso
-- **Identidad visual matemática**: fondos con patrones, ecuaciones flotantes y símbolos (π, ∑, ∫, etc.)
-- **Animaciones al scroll** en cada bloque mediante hooks reutilizables
-- **Diseño responsive** (mobile-first) con menú hamburguesa en pantallas chicas
-- **Formulario de contacto** que arma el mensaje y abre WhatsApp con un clic
-- **SEO y redes sociales**: meta tags, Open Graph y Twitter Card con imagen `og-image.png`
-- **Mapa embebido** de General Pacheco, Buenos Aires
-- **Accesibilidad básica**: labels en formularios, `aria` en navegación y landmarks semánticos
+</div>
 
 ---
 
-## Stack tecnológico
+## 📌 Descripción
 
-| Tecnología | Uso |
-|------------|-----|
-| [React 18](https://react.dev/) | UI por componentes |
-| [TypeScript](https://www.typescriptlang.org/) | Tipado estático |
-| [Vite 5](https://vitejs.dev/) | Build y dev server |
-| [Tailwind CSS 3](https://tailwindcss.com/) | Estilos y diseño responsive |
-| [Lucide React](https://lucide.dev/) | Iconografía |
-| [Netlify](https://www.netlify.com/) | Hosting estático |
+**Luca Martínez Math** es una plataforma web tipo Single Page Application (SPA) moderna, fluida y de alto impacto visual, diseñada específicamente para presentar la propuesta pedagógica del profesor Luca Martínez y convertir visitantes en consultas directas a través de WhatsApp.
+
+> 🚀 **Sitio web en producción:** [mateconluca.netlify.app](https://mateconluca.netlify.app/)
 
 ---
 
+## 🖼️ Galería de Capturas
 
+<div align="center">
+  <img src="public/screenshots/Screenshot_1.png" width="49%" alt="Vista Previa 1" />
+  <img src="public/screenshots/Screenshot_2.png" width="49%" alt="Vista Previa 2" />
+</div>
 
+<br />
+
+<div align="center">
+  <img src="public/screenshots/Screenshot_3.png" width="49%" alt="Vista Previa 3" />
+  <img src="public/screenshots/Screenshot_4.png" width="49%" alt="Vista Previa 4" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="public/screenshots/Screenshot_5.png" width="98.5%" alt="Vista Previa 5" />
+</div>
 
 ---
 
-## Créditos
+## ✨ Características Principales
 
-- **Cliente / profesor:** [Luca Martínez](https://www.instagram.com/lucamateclases/) — Clases de matemáticas
-- **Desarrollo:** [WaveFrame Studio](https://waveframe.com.ar/)
+- ⚡ **Experiencia SPA Fluida:** Navegación dinámica con seguimiento de sección activa (`IntersectionObserver`).
+- 🧮 **Identidad Visual Matemática:** Animaciones personalizadas con símbolos matemáticos ($\pi, \sum, \int$), ecuaciones flotantes y loader con barra de progreso.
+- 📱 **Diseño Responsive & Mobile-First:** Adaptabilidad total a cualquier pantalla con menú hamburguesa interactivo.
+- 💬 **Integración Directa con WhatsApp:** Formulario inteligente de contacto que pre-arma y envía la consulta directamente al chat.
+- 🗺️ **Geolocalización:** Mapa embebido de la zona de atención en General Pacheco, Buenos Aires.
+- 🔍 **Optimización SEO:** Implementación completa de Open Graph, Twitter Cards y etiquetas meta estructuradas.
+- ♿ **Accesibilidad & Semántica:** Estructura semántica HTML5 con soporte para lectores de pantalla.
 
 ---
 
-## Licencia
+## 🛠️ Tecnologías Utilizadas
 
-Proyecto privado. Todos los derechos reservados. No redistribuir sin autorización del titular.
+| Tecnología | Descripción |
+| :--- | :--- |
+| **React 18** | Biblioteca principal para el desarrollo de la interfaz de usuario modular. |
+| **TypeScript** | Sistema de tipado estático para garantizar mayor solidez y mantenibilidad. |
+| **Tailwind CSS** | Framework de estilos utility-first para diseño responsivo y moderno. |
+| **Vite 5** | Entorno de desarrollo ultrarrápido y empaquetado optimizado. |
+| **Lucide Icons** | Set de iconografía vectorial limpia y coherente. |
+| **Netlify** | Infraestructura de despliegue continuo y alojamiento web. |
+
+---
+
+## 🤝 Créditos & Autoría
+
+- 👨‍🏫 **Docente & Cliente:** [Luca Martínez](https://www.instagram.com/lucamateclases/) — Clases de Matemáticas.
+- 💻 **Diseño y Desarrollo:** [WaveFrame Studio](https://waveframe.com.ar/)
+
+---
+
+## 📄 Licencia
+
+Proyecto privado. Todos los derechos reservados © **Luca Martínez & WaveFrame Studio**.  
+*Queda prohibida su reproducción o redistribución sin autorización previa del titular.*
+
